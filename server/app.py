@@ -1,10 +1,12 @@
 from server.models.user import User
 from fastapi import FastAPI, status, HTTPException
 from server.routes.product import router as product_router
+from server.routes.user import router as user_router
 
 
 app = FastAPI()
 
+app.include_router(user_router, tags=["User"], prefix="/user")
 app.include_router(product_router, tags=["Product"], prefix="/product")
 
 

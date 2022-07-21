@@ -7,7 +7,7 @@ class User(BaseModel):
     last_name: str = Field(...)
     email: EmailStr = Field(...)
     password: str = Field(...)
-    national_id: int = Field(...)
+    national_id: str = Field(...)
 
     class Config:
         schema_extra = {
