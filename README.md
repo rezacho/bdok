@@ -20,3 +20,5 @@ Example for add product:\
     "price": "1500",\
     "description": "good phone"\
 }
+
+<img src="https://gcdnb.pbrd.co/images/a0vr2GfrCMvt.png?o=1">
