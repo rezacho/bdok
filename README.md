@@ -6,6 +6,7 @@ Use Postman or Insomnia to send rerequests
 
 Run server: python main.py 
 
+Create new user [POST]: http://0.0.0.0:8000/user/ \
 Create new product [POST]: http://0.0.0.0:8000/product/ \
 Retrieve all products [GET]: http://0.0.0.0:8000/product/ \
 Retrieve a single product [GET]: http://0.0.0.0:8000/product/{id} \
